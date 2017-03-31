@@ -1,0 +1,1 @@
+cmd_drivers/usb/class/built-in.o :=  /opt/arm-2011.09/bin/arm-none-linux-gnueabi-ld -EL    -r -o drivers/usb/class/built-in.o drivers/usb/class/cdc-acm.o drivers/usb/class/cdc-wdm.o ; scripts/mod/modpost drivers/usb/class/built-in.o

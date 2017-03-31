@@ -1,0 +1,1 @@
+cmd_drivers/block/built-in.o :=  /opt/arm-2011.09/bin/arm-none-linux-gnueabi-ld -EL    -r -o drivers/block/built-in.o drivers/block/brd.o drivers/block/loop.o ; scripts/mod/modpost drivers/block/built-in.o

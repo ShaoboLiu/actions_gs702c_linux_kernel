@@ -1,0 +1,7 @@
+arch/arm/include/
+arch/arm/configs/leopard_evb_defconfig
+arch/arm/mach-leopard/include/mach/
+arch/arm/Makefile
+include/
+scripts/
+Makefile

@@ -1,0 +1,1 @@
+cmd_fs/notify/inotify/built-in.o :=  /opt/arm-2011.09/bin/arm-none-linux-gnueabi-ld -EL    -r -o fs/notify/inotify/built-in.o fs/notify/inotify/inotify_fsnotify.o fs/notify/inotify/inotify_user.o ; scripts/mod/modpost fs/notify/inotify/built-in.o

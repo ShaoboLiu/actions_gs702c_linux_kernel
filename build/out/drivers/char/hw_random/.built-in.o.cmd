@@ -1,0 +1,1 @@
+cmd_drivers/char/hw_random/built-in.o :=  /opt/arm-2011.09/bin/arm-none-linux-gnueabi-ld -EL    -r -o drivers/char/hw_random/built-in.o drivers/char/hw_random/rng-core.o ; scripts/mod/modpost drivers/char/hw_random/built-in.o

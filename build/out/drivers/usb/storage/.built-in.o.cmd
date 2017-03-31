@@ -1,0 +1,1 @@
+cmd_drivers/usb/storage/built-in.o :=  /opt/arm-2011.09/bin/arm-none-linux-gnueabi-ld -EL    -r -o drivers/usb/storage/built-in.o drivers/usb/storage/usb-storage.o ; scripts/mod/modpost drivers/usb/storage/built-in.o

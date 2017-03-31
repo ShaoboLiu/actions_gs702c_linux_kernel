@@ -1,0 +1,1 @@
+cmd_kernel/sched/built-in.o :=  /opt/arm-2011.09/bin/arm-none-linux-gnueabi-ld -EL    -r -o kernel/sched/built-in.o kernel/sched/core.o kernel/sched/clock.o kernel/sched/idle_task.o kernel/sched/fair.o kernel/sched/rt.o kernel/sched/stop_task.o kernel/sched/cpupri.o ; scripts/mod/modpost kernel/sched/built-in.o

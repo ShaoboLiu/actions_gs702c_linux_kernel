@@ -1,0 +1,1 @@
+cmd_drivers/gpu/drm/built-in.o :=  /opt/arm-2011.09/bin/arm-none-linux-gnueabi-ld -EL    -r -o drivers/gpu/drm/built-in.o drivers/gpu/drm/i2c/built-in.o ; scripts/mod/modpost drivers/gpu/drm/built-in.o

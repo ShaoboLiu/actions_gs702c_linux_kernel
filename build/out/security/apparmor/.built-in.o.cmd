@@ -1,0 +1,1 @@
+cmd_security/apparmor/built-in.o :=  /opt/arm-2011.09/bin/arm-none-linux-gnueabi-ld -EL    -r -o security/apparmor/built-in.o security/apparmor/apparmor.o ; scripts/mod/modpost security/apparmor/built-in.o

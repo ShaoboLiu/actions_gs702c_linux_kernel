@@ -1,0 +1,1 @@
+cmd_drivers/leds/built-in.o :=  /opt/arm-2011.09/bin/arm-none-linux-gnueabi-ld -EL    -r -o drivers/leds/built-in.o drivers/leds/led-core.o drivers/leds/led-class.o ; scripts/mod/modpost drivers/leds/built-in.o

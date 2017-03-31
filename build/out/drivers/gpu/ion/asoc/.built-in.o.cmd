@@ -1,0 +1,1 @@
+cmd_drivers/gpu/ion/asoc/built-in.o :=  /opt/arm-2011.09/bin/arm-none-linux-gnueabi-ld -EL    -r -o drivers/gpu/ion/asoc/built-in.o drivers/gpu/ion/asoc/asoc_ion.o drivers/gpu/ion/asoc/asoc_cma_ion.o ; scripts/mod/modpost drivers/gpu/ion/asoc/built-in.o

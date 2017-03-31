@@ -1,0 +1,1 @@
+cmd_arch/arm/mach-leopard/xml/built-in.o :=  /opt/arm-2011.09/bin/arm-none-linux-gnueabi-ld -EL    -r -o arch/arm/mach-leopard/xml/built-in.o arch/arm/mach-leopard/xml/xml_config.o arch/arm/mach-leopard/xml/xml_pinctrl.o ; scripts/mod/modpost arch/arm/mach-leopard/xml/built-in.o

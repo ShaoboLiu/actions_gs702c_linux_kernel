@@ -1,0 +1,1 @@
+cmd_drivers/pinctrl/built-in.o :=  /opt/arm-2011.09/bin/arm-none-linux-gnueabi-ld -EL    -r -o drivers/pinctrl/built-in.o drivers/pinctrl/core.o drivers/pinctrl/pinmux.o drivers/pinctrl/pinconf.o ; scripts/mod/modpost drivers/pinctrl/built-in.o

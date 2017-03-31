@@ -1,0 +1,1 @@
+cmd_sound/usb/built-in.o :=  /opt/arm-2011.09/bin/arm-none-linux-gnueabi-ld -EL    -r -o sound/usb/built-in.o sound/usb/misc/built-in.o sound/usb/usx2y/built-in.o sound/usb/caiaq/built-in.o sound/usb/6fire/built-in.o ; scripts/mod/modpost sound/usb/built-in.o

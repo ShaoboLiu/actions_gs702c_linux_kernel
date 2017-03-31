@@ -1,0 +1,1 @@
+cmd_block/partitions/built-in.o :=  /opt/arm-2011.09/bin/arm-none-linux-gnueabi-ld -EL    -r -o block/partitions/built-in.o block/partitions/check.o block/partitions/msdos.o ; scripts/mod/modpost block/partitions/built-in.o

@@ -1,0 +1,1 @@
+cmd_drivers/input/serio/built-in.o :=  /opt/arm-2011.09/bin/arm-none-linux-gnueabi-ld -EL    -r -o drivers/input/serio/built-in.o drivers/input/serio/serio.o drivers/input/serio/serport.o ; scripts/mod/modpost drivers/input/serio/built-in.o

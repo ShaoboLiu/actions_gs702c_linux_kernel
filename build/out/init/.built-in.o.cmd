@@ -1,0 +1,1 @@
+cmd_init/built-in.o :=  /opt/arm-2011.09/bin/arm-none-linux-gnueabi-ld -EL    -r -o init/built-in.o init/main.o init/version.o init/mounts.o init/initramfs.o init/calibrate.o ; scripts/mod/modpost init/built-in.o

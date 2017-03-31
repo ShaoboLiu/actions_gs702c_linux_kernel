@@ -1,0 +1,1 @@
+cmd_drivers/hid/built-in.o :=  /opt/arm-2011.09/bin/arm-none-linux-gnueabi-ld -EL    -r -o drivers/hid/built-in.o drivers/hid/hid.o drivers/hid/uhid.o drivers/hid/hid-apple.o drivers/hid/hid-logitech.o drivers/hid/hid-microsoft.o drivers/hid/hid-sony.o drivers/hid/usbhid/built-in.o ; scripts/mod/modpost drivers/hid/built-in.o

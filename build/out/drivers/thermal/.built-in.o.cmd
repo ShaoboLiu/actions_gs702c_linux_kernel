@@ -1,0 +1,1 @@
+cmd_drivers/thermal/built-in.o :=  /opt/arm-2011.09/bin/arm-none-linux-gnueabi-ld -EL    -r -o drivers/thermal/built-in.o drivers/thermal/thermal_sys.o drivers/thermal/cpu_cooling.o ; scripts/mod/modpost drivers/thermal/built-in.o

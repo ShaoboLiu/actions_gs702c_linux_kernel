@@ -1,0 +1,1 @@
+cmd_drivers/video/backlight/built-in.o :=  /opt/arm-2011.09/bin/arm-none-linux-gnueabi-ld -EL    -r -o drivers/video/backlight/built-in.o drivers/video/backlight/backlight.o ; scripts/mod/modpost drivers/video/backlight/built-in.o

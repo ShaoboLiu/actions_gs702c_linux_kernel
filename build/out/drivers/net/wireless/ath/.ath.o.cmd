@@ -1,0 +1,1 @@
+cmd_drivers/net/wireless/ath/ath.o := /opt/arm-2011.09/bin/arm-none-linux-gnueabi-ld -EL    -r -o drivers/net/wireless/ath/ath.o drivers/net/wireless/ath/main.o drivers/net/wireless/ath/regd.o drivers/net/wireless/ath/hw.o drivers/net/wireless/ath/key.o ; scripts/mod/modpost drivers/net/wireless/ath/ath.o

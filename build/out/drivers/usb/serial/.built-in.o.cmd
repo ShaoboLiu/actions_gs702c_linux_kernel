@@ -1,0 +1,1 @@
+cmd_drivers/usb/serial/built-in.o :=  /opt/arm-2011.09/bin/arm-none-linux-gnueabi-ld -EL    -r -o drivers/usb/serial/built-in.o drivers/usb/serial/usbserial.o ; scripts/mod/modpost drivers/usb/serial/built-in.o

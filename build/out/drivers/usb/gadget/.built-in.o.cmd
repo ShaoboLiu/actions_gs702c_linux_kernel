@@ -1,0 +1,1 @@
+cmd_drivers/usb/gadget/built-in.o :=  /opt/arm-2011.09/bin/arm-none-linux-gnueabi-ld -EL    -r -o drivers/usb/gadget/built-in.o drivers/usb/gadget/udc-core.o ; scripts/mod/modpost drivers/usb/gadget/built-in.o

@@ -1,0 +1,1 @@
+cmd_lib/zlib_deflate/built-in.o :=  /opt/arm-2011.09/bin/arm-none-linux-gnueabi-ld -EL    -r -o lib/zlib_deflate/built-in.o lib/zlib_deflate/zlib_deflate.o ; scripts/mod/modpost lib/zlib_deflate/built-in.o

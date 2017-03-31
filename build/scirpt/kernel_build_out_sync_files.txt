@@ -1,0 +1,7 @@
+arch/arm/boot/Image
+arch/arm/include/
+arch/arm/lib/lib.a
+include/
+scripts/
+Module.symvers
+System.map

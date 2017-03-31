@@ -1,0 +1,1 @@
+cmd_drivers/staging/built-in.o :=  /opt/arm-2011.09/bin/arm-none-linux-gnueabi-ld -EL    -r -o drivers/staging/built-in.o drivers/staging/staging.o drivers/staging/serial/built-in.o drivers/staging/media/built-in.o drivers/staging/iio/built-in.o drivers/staging/android/built-in.o ; scripts/mod/modpost drivers/staging/built-in.o

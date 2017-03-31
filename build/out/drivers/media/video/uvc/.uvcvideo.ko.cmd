@@ -1,0 +1,1 @@
+cmd_drivers/media/video/uvc/uvcvideo.ko := /opt/arm-2011.09/bin/arm-none-linux-gnueabi-ld -EL -r  -T /home/developer/action_compiling_21/leopard/kernel/linux-3.4/scripts/module-common.lds --build-id  -o drivers/media/video/uvc/uvcvideo.ko drivers/media/video/uvc/uvcvideo.o drivers/media/video/uvc/uvcvideo.mod.o

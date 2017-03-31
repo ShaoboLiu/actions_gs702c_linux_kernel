@@ -1,0 +1,1 @@
+cmd_drivers/rtc/built-in.o :=  /opt/arm-2011.09/bin/arm-none-linux-gnueabi-ld -EL    -r -o drivers/rtc/built-in.o drivers/rtc/rtc-lib.o drivers/rtc/hctosys.o drivers/rtc/rtc-core.o ; scripts/mod/modpost drivers/rtc/built-in.o

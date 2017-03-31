@@ -1,0 +1,1 @@
+cmd_drivers/tty/serial/built-in.o :=  /opt/arm-2011.09/bin/arm-none-linux-gnueabi-ld -EL    -r -o drivers/tty/serial/built-in.o drivers/tty/serial/serial_core.o ; scripts/mod/modpost drivers/tty/serial/built-in.o

@@ -1,0 +1,1 @@
+cmd_drivers/media/rc/built-in.o :=  /opt/arm-2011.09/bin/arm-none-linux-gnueabi-ld -EL    -r -o drivers/media/rc/built-in.o drivers/media/rc/keymaps/built-in.o ; scripts/mod/modpost drivers/media/rc/built-in.o

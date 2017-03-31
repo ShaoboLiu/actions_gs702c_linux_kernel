@@ -1,0 +1,1 @@
+cmd_drivers/net/wireless/hostap/built-in.o :=  /opt/arm-2011.09/bin/arm-none-linux-gnueabi-ld -EL    -r -o drivers/net/wireless/hostap/built-in.o drivers/net/wireless/hostap/hostap.o ; scripts/mod/modpost drivers/net/wireless/hostap/built-in.o

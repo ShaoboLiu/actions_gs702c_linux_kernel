@@ -1,0 +1,1 @@
+cmd_drivers/scsi/sr_mod.o := /opt/arm-2011.09/bin/arm-none-linux-gnueabi-ld -EL    -r -o drivers/scsi/sr_mod.o drivers/scsi/sr.o drivers/scsi/sr_ioctl.o drivers/scsi/sr_vendor.o ; scripts/mod/modpost drivers/scsi/sr_mod.o

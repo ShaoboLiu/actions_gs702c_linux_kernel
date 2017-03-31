@@ -1,0 +1,1 @@
+cmd_drivers/gpio/built-in.o :=  /opt/arm-2011.09/bin/arm-none-linux-gnueabi-ld -EL    -r -o drivers/gpio/built-in.o drivers/gpio/gpiolib.o drivers/gpio/devres.o ; scripts/mod/modpost drivers/gpio/built-in.o

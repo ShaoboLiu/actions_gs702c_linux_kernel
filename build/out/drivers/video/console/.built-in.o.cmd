@@ -1,0 +1,1 @@
+cmd_drivers/video/console/built-in.o :=  /opt/arm-2011.09/bin/arm-none-linux-gnueabi-ld -EL    -r -o drivers/video/console/built-in.o drivers/video/console/dummycon.o ; scripts/mod/modpost drivers/video/console/built-in.o

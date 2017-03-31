@@ -1,0 +1,1 @@
+cmd_drivers/media/video/gspca/gspca_main.ko := /opt/arm-2011.09/bin/arm-none-linux-gnueabi-ld -EL -r  -T /home/developer/action_compiling_21/leopard/kernel/linux-3.4/scripts/module-common.lds --build-id  -o drivers/media/video/gspca/gspca_main.ko drivers/media/video/gspca/gspca_main.o drivers/media/video/gspca/gspca_main.mod.o

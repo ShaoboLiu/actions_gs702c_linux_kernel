@@ -1,0 +1,1 @@
+cmd_net/netfilter/netfilter.o := /opt/arm-2011.09/bin/arm-none-linux-gnueabi-ld -EL    -r -o net/netfilter/netfilter.o net/netfilter/core.o net/netfilter/nf_log.o net/netfilter/nf_queue.o net/netfilter/nf_sockopt.o ; scripts/mod/modpost net/netfilter/netfilter.o
